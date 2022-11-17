@@ -1,0 +1,107 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 213px;
+  height: 180px;
+  margin-top: 10px;
+}
+
+.img-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: red;
+}
+
+main {
+  border-bottom-color: black;
+  background-color: blue;
+  height: 90vh;
+  width: 289px;
+  border-bottom-style: double;
+  border-bottom-width: 26px;
+  border-radius: 20px;
+  border-top-width: 26px;
+  border-top-style: double;
+  border-top-color: white;
+  border-left-style: groove;
+  border-left-color: white;
+  border-right-style: groove;
+  border-right-color: black;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.search input {
+  font-style: oblique;
+  background-color: transparent;
+  color: white;
+  outline: none;
+  border-top-style: none;
+  border-left-style: none;
+  border-right-style: none;
+  border-bottom-style: solid;
+  border-bottom-width: 3px;
+  width: 168px;
+  border-bottom-color: white;
+  font-size: 17px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.search input::placeholder {
+  color: white;
+  font-size: 15px;
+}
+
+.search button {
+  background-color: black;
+  background-color: black;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 18px;
+  padding-right: 18px;
+  color: white;
+  border-radius: 10px;
+  font-style: italic;
+  cursor: pointer;
+  font-size: 17px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.search button:hover {
+  background-color: rgba(0, 0, 0, 0.889);
+}
+
+.para {
+  text-align: center;
+  color: white;
+  margin-top: -18px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.result {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  margin-top: 25px;
+  margin-left: 10px;
+  row-gap: 8px;
+}

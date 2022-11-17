@@ -1,0 +1,40 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./country.css" />
+    <title>Country Guide</title>
+  </head>
+  <body>
+    <main>
+      <!--result seacrh input and search-->
+      <div class="search">
+        <input
+          type="text"
+          id="input"
+          placeholder="Enter a country name here.."
+          required
+        />
+        <button onclick="Search()">Search</button>
+      </div>
+      <!--result country flag and name-->
+
+      <div class="img-div">
+        <img id="img" src="./nigeria.png" alt="" />
+      </div>
+
+      <div class="para">Nigeria</div>
+
+      <!--result container-->
+      <div class="result">
+        <div id="Capital">Capital: Abuja</div>
+        <div id="Continent">Continents: Africa</div>
+        <div id="Popu">Population: 206139587</div>
+        <div id="Cur">Currency: Nigerian naira</div>
+        <div id="Common">Language: English</div>
+      </div>
+    </main>
+    <script src="./country.js"></script>
+  </body>
+</html>
