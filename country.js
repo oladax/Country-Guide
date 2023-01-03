@@ -24,7 +24,7 @@ function Search() {
         img.src = `${json[0].flags.svg}`;
         country.innerHTML = json[0].name.common;
         Capital.innerHTML = `Capital: ${json[0].capital[0]}`;
-        Continent.innerHTML = `Continents: ${json[0].continents[0]}`;
+        Continent.innerHTML = `Continent: ${json[0].continents[0]}`;
         population.innerHTML = `Population: ${json[0].population}`;
         Currency.innerHTML = `Currency: ${
           json[0].currencies[Object.keys(json[0].currencies)].name
